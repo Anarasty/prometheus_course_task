@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+/* COLORS */
+:root {
+    --black-coffee: #2E1F27;
+    --russet: #854D27;
+    --chocolate-web: #DD7230;
+    --maize-crayola: #F4C95D;
+    --green-yellow-crayola: #E7E393;
+}
+
+/* NAVIGATION */
+nav {
+    background-color: var(--chocolate-web);
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+}
+
+nav img {
+    width: 100px;
+    margin: 0 15px;
+}
+
+nav h1 {
+    margin: 0 15px;
+    font-size: 2em;
+}
+
+/* MAIN */
+main {
+    background-color: var(--green-yellow-crayola);
+    min-height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .user-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-box img {
+    width: 400px;
+}
+
+.user-box .user-box-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-box-content label {
+    font-size: 2.5em;
+    margin: 10px 0;
+}
+
+.user-box-content input {
+    font-size: 1.8em;
+    margin: 10px 0;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: var(--green-yellow-crayola);
+    font-family: 'Ubuntu', sans-serif;
+    transition: 0.3s ease;
+}
+
+.user-box-content input[type="submit"]:hover {
+    background-color: var(--chocolate-web);
+    padding: 10px 35px;
+}
