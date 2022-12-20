@@ -94,3 +94,52 @@ main .user-box {
     background-color: var(--chocolate-web);
     padding: 10px 35px;
 }
+
+@media screen and (max-width: 1200px) {
+    /* NAVIGATION */
+    nav img {
+        width: 70px;
+    }
+
+    nav h1 {
+        font-size: 1.5em;
+    }
+
+    /* MAIN */
+    .user-box img {
+        width: 200px;
+    }
+
+    .user-box-content label {
+        font-size: 2em;
+    }
+
+    .user-box-content input {
+        font-size: 1.3em;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    /* NAVIGATION */
+    nav img {
+        width: 50px;
+    }
+
+    nav h1 {
+        font-size: 1.3em;
+        margin: 0;
+    }
+
+    /* MAIN */
+    .user-box img {
+        width: 160px;
+    }
+
+    .user-box-content label {
+        font-size: 1.5em;
+    }
+
+    .user-box-content input {
+        font-size: 1em;
+    }
+}
