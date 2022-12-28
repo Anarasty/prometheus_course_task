@@ -56,19 +56,20 @@
       <div class="price_info_box">
         <div class="price_box">
           <h3>Price $</h3>
-          <h2>44 $</h2>
+          <h2 id="price_number">45.3</h2>
         </div>
-        <div class="count_box">
-          <h3>Count</h3>
-          <input type="number" min="0" max="42"/>
-        </div>
+        <form class="count_box">
+          <label for="count_inp" class="count_lbl">Count</label>
+          <input name="count_inp" id="count_inp" type="number" min="1" max="42" value="1"/>
+        </form>
         <div class="total_box">
           <h3>Total price</h3>
-          <h2>44 $</h2>
+          <h2 id="price_total_number">45.3</h2>
         </div>
         <button>Add to cart</button>
       </div>
     </main>
     <!-- MAIN -->
+    <script src="main.js"></script>
   </body>
 </html>

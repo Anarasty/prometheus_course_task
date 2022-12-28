@@ -185,8 +185,9 @@ main {
 }
 
 .price_box h3,
-h2,
+.price_box h2,
 .count_box h3,
+.count_box label,
 .total_box h3,
 h4 {
   font-size: 2em;
