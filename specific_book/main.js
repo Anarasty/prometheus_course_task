@@ -1,3 +1,4 @@
+// Books count input functional
 const refs = {
     price: document.querySelector('#price_number'),
     count: document.querySelector('#count_inp'),
